@@ -22,7 +22,7 @@ O **Repositório da ONHB** é um acervo digital de questões da **Olimpíada Nac
 
 Cada questão é tratada como um pequeno documento: ela reúne a **fonte histórica primária** em que se baseia, a **autoria**, a **datação**, o **tipo de documento**, o **acervo de origem** e a **transcrição**, tudo em um só lugar e pesquisável.
 
-O projeto é desenvolvido no contexto do **LEIAH — Laboratório de Estudos e Investigações em Ensino de História**.
+O projeto é desenvolvido no contexto do **LEIAH — Laboratório de Eletrônica Informática Aplicada  e Humanidades**.
 
 > 💡 A ideia é simples: transformar décadas de provas em um banco de dados vivo, que dá para filtrar por período, tema, fase e edição.
 
