@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <mta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKYNET - Escolher Edição</title>
+
+    <style>
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+:root {
+    --verde-header: #216d3a;
+    --fundo-creme: #f5f2e9;
+    --bege-card: #f2e9d8;
+    --bege-hover: #e8dec8;
+    --texto-escuro: #2b2823;
+    --texto-suave: #665f55;
+    --borda-suave: #d9ccb4;
+}
+
+body {
+    background-color: var(--fundo-creme);
+    color: var(--texto-escuro);
+    min-height: 100vh;
+}
+
+
+.header-skynet {
+    background-color: var(--verde-header);
+    color: white;
+    padding: 16px 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.header-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-icon {
+    font-size: 2.2rem;
+}
+
+.logo-area h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.logo-area p {
+    font-size: 0.85rem;
+    opacity: 0.85;
+}
+
+.user-icon {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+
+.main-container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.banner-boas-vindas {
+    background-color: var(--bege-card);
+    border: 1px solid var(--borda-suave);
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+}
+
+.banner-texto h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--texto-escuro);
+}
+
+.banner-texto p {
+    color: var(--texto-suave);
+    line-height: 1.6;
+    max-width: 700px;
+    font-size: 1rem;
+}
+
+.banner-ilustracao {
+    font-size: 4rem;
+    opacity: 0.8;
+}
+
+
+.secao-titulo h2 {
+    font-size: 1.2rem;
+    color: var(--texto-escuro);
+    border-bottom: 2px solid var(--borda-suave);
+    padding-bottom: 8px;
+    margin-top: 10px;
+}
+
+.container-edicoes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.card-edicao {
+    background-color: var(--bege-card);
+    border: 1px solid var(--borda-suave);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-edicao:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    background-color: var(--bege-hover);
+    border-color: var(--verde-header);
+}
+
+.card-icon {
+    font-size: 2.2rem;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.card-info h3 {
+    font-size: 1.2rem;
+    color: var(--texto-escuro);
+}
+
+.ano-edicao {
+    font-size: 0.9rem;
+    color: var(--texto-suave);
+    margin-bottom: 6px;
+}
+
+.btn-acessar {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--verde-header);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.btn-acessar:hover {
+    text-decoration: underline;
+}
+
+.msg-vazio {
+    grid-column: 1 / -1;
+    color: var(--texto-suave);
+    font-style: italic;
+    padding: 20px;
+}
+
+.instrucao-rodape {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--texto-suave);
+    letter-spacing: 0.5px;
+}
+    </style>
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header class="header-skynet">
+        <div class="header-content">
+            <div class="logo-area">
+                <span class="logo-icon">🏛️</span>
+                <div>
+                    <h1>REPOSITÓRIO SKYNET</h1>
+                    <p>Olimpíada Nacional em História do Brasil</p>
+                </div>
+            </div>
+            <div class="user-area">
+                <span class="user-icon">👤</span>
+            </div>
+        </div>
+    </header>
+
+    
+    <main class="main-container">
+        
+        
+        <section class="banner-boas-vindas">
+            <div class="banner-texto">
+                <h2>PÁGINA INICIAL DO REPOSITÓRIO</h2>
+                <p>Bem-vindo ao portal unificado de questões da Olimpíada Nacional em História do Brasil. Explore todas as edições passadas e aprofunde seu conhecimento.</p>
+            </div>
+            <div class="banner-ilustracao">
+                📖📜
+            </div>
+        </section>
+
+        <div class="secao-titulo">
+            <h2>Visualizar qualquer questão</h2>
+            <a href="{% url 'busca_global' %}">← Busca Global</a>
+        </div>
+
+        <div class="secao-titulo">
+            <h2>Selecione uma Edição</h2>
+        </div>
+
+        
+        <section class="container-edicoes">
+            {% for edicao in edicoes %}
+                <div class="card-edicao">
+                    <div class="card-icon">📖</div>
+                    <div class="card-info">
+                        <h3>{{ edicao.num_edicao }}ª Edição</h3>
+                        <p class="ano-edicao">Ano: {{ edicao.ano_edicao }}</p>
+                        <a href="{% url 'escolher_fase' edicao.id_edicao %}" class="btn-acessar">
+                            Acessar Edição ➔
+                        </a>
+                    </div>
+                </div>
+            {% empty %}
+                <p class="msg-vazio">Nenhuma edição encontrada no banco de dados.</p>
+            {% endfor %}
+        </section>
+
+        <div class="instrucao-rodape">
+            ➔ CLIQUE EM UMA DAS EDIÇÕES ACIMA PARA COMEÇAR A EXPLORAR AS QUESTÕES.
+        </div>
+    </main>
+
+</body>
+</html>
+

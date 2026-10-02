@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKYNET - Fases da Edição {{ edicao.num_edicao }}</title>
+    
+    <style>
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+:root {
+    --verde-header: #216d3a;
+    --fundo-creme: #f5f2e9;
+    --bege-card: #f2e9d8;
+    --bege-hover: #e8dec8;
+    --texto-escuro: #2b2823;
+    --texto-suave: #665f55;
+    --borda-suave: #d9ccb4;
+}
+
+body {
+    background-color: var(--fundo-creme);
+    color: var(--texto-escuro);
+    min-height: 100vh;
+}
+
+
+.header-skynet {
+    background-color: var(--verde-header);
+    color: white;
+    padding: 16px 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.header-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-icon {
+    font-size: 2.2rem;
+}
+
+.logo-area h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.logo-area p {
+    font-size: 0.85rem;
+    opacity: 0.85;
+}
+
+.user-icon {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+
+.main-container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.topo-fases {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.titulos-fases {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.titulos-fases h2 {
+    font-size: 1.3rem;
+    color: var(--texto-escuro);
+    font-weight: 800;
+}
+
+.titulos-fases span {
+    font-size: 0.95rem;
+    color: var(--texto-suave);
+}
+
+.btn-voltar {
+    background-color: var(--bege-hover);
+    color: var(--texto-suave);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border: 1px solid var(--borda-suave);
+    transition: all 0.2s ease;
+}
+
+.btn-voltar:hover {
+    background-color: var(--verde-header);
+    color: white;
+    border-color: var(--verde-header);
+}
+
+
+.faixa-secao {
+    background-color: var(--bege-hover);
+    color: var(--texto-escuro);
+    font-weight: 700;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 1px solid var(--borda-suave);
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
+
+
+.banner-boas-vindas {
+    background-color: var(--bege-card);
+    border: 1px solid var(--borda-suave);
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.banner-texto h2 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: var(--texto-escuro);
+}
+
+.banner-texto p {
+    color: var(--texto-suave);
+    line-height: 1.5;
+    max-width: 650px;
+    font-size: 0.95rem;
+}
+
+.banner-ilustracao {
+    font-size: 3.5rem;
+    opacity: 0.8;
+}
+
+
+.container-fases {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+}
+
+.card-fase {
+    background-color: var(--bege-card);
+    border: 1px solid var(--borda-suave);
+    border-radius: 10px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    color: var(--texto-escuro);
+    transition: all 0.2s ease-in-out;
+}
+
+.card-fase:hover {
+    transform: translateY(-3px);
+    background-color: var(--bege-hover);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    border-color: var(--verde-header);
+}
+
+.card-fase-icon {
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid var(--borda-suave);
+}
+
+.card-fase-info h3 {
+    font-size: 1.05rem;
+    color: var(--texto-escuro);
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.card-fase-info p {
+    font-size: 0.85rem;
+    color: var(--texto-suave);
+}
+
+.msg-vazio {
+    grid-column: 1 / -1;
+    color: var(--texto-suave);
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+}
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header class="header-skynet">
+        <div class="header-content">
+            <div class="logo-area">
+                <span class="logo-icon">🏛️</span>
+                <div>
+                    <h1>REPOSITÓRIO SKYNET</h1>
+                    <p>Olimpíada Nacional em História do Brasil</p>
+                </div>
+            </div>
+            <div class="user-area">
+                <span class="user-icon">👤</span>
+            </div>
+        </div>
+    </header>
+
+    
+    <main class="main-container">
+        
+        
+        <div class="topo-fases">
+            <div class="titulos-fases">
+                <h2>PÁGINA DA EDIÇÃO: {{ edicao.num_edicao }}ª Edição ({{ edicao.ano_edicao }})</h2>
+                <span>- Selecione a Fase</span>
+            </div>
+            <a href="{% url 'escolher_edicao' %}" class="btn-voltar">
+                VOLTAR PARA TODAS AS EDIÇÕES
+            </a>
+        </div>
+
+        
+        <div class="faixa-secao">
+            FASES DA EDIÇÃO
+        </div>
+
+        
+        <section class="banner-boas-vindas banner-fase">
+            <div class="banner-ilustracao">📜</div>
+            <div class="banner-texto text-center">
+                <h2>{{ edicao.num_edicao }}ª EDIÇÃO ({{ edicao.ano_edicao }})</h2>
+                <p>Fases da Olimpíada Nacional em História do Brasil da {{ edicao.num_edicao }}ª edição, organizadas em ordem cronológica de aplicação.</p>
+            </div>
+            <div class="banner-ilustracao">🧭</div>
+        </section>
+
+        
+        <section class="container-fases">
+            {% for fase in fases %}
+                <a href="{% url 'listar_questoes' fase.id_fase %}" class="card-fase">
+                    <div class="card-fase-icon">
+                        {% if "Final" in fase.tipo_fase or "Grande" in fase.tipo_fase %}
+                            🏆
+                        {% else %}
+                            📖
+                        {% endif %}
+                    </div>
+                    <div class="card-fase-info">
+                        <h3>{{ fase.num_fase }}. FASE {{ fase.num_fase }}</h3>
+                        <p>{{ fase.tipo_fase }}</p>
+                    </div>
+                </a>
+            {% empty %}
+                <p class="msg-vazio">Nenhuma fase cadastrada para esta edição no banco de dados.</p>
+            {% endfor %}
+        </section>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>SKYNET - Questões da Fase {{ fase.num_fase }}</title>
+
+    <style>
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+:root {
+    --verde-header: #216d3a;
+    --fundo-creme: #f5f2e9;
+    --bege-card: #f2e9d8;
+    --bege-hover: #e8dec8;
+    --texto-escuro: #2b2823;
+    --texto-suave: #665f55;
+    --borda-suave: #d9ccb4;
+    --branco: #ffffff;
+}
+
+body {
+    background-color: var(--fundo-creme);
+    color: var(--texto-escuro);
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+
+header {
+    background-color: var(--verde-header);
+    color: white;
+    padding: 16px 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+header h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+header h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+header p {
+    font-size: 0.85rem;
+    opacity: 0.75;
+    margin-top: 2px;
+}
+
+hr {
+    display: none; 
+}
+
+
+.form-filtros {
+    max-width: 1100px;
+    margin: 24px auto 16px auto;
+    padding: 20px;
+    background-color: var(--bege-card);
+    border: 1px solid var(--borda-suave);
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    align-items: center;
+}
+
+.input-busca, .select-filtro {
+    width: 100%;
+    padding: 10px 14px;
+    background-color: var(--branco);
+    border: 1px solid var(--borda-suave);
+    border-radius: 8px;
+    color: var(--texto-escuro);
+    font-size: 0.9rem;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.input-busca:focus, .select-filtro:focus {
+    border-color: var(--verde-header);
+    box-shadow: 0 0 0 2px rgba(33, 109, 58, 0.15);
+}
+
+.input-busca::placeholder {
+    color: #999;
+}
+
+
+.container-questoes {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card-questao {
+    background-color: var(--bege-card) !important;
+    border: 1px solid var(--borda-suave) !important;
+    border-radius: 10px !important;
+    padding: 18px 20px !important;
+    margin-bottom: 0 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-questao:hover {
+    background-color: var(--bege-hover) !important;
+    border-color: var(--verde-header) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card-questao h3 {
+    font-size: 1.1rem;
+    color: var(--verde-header);
+    font-weight: 700;
+    border-bottom: 1px solid var(--borda-suave);
+    padding-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-questao p {
+    font-size: 0.95rem;
+    color: var(--texto-escuro);
+    line-height: 1.4;
+}
+
+.card-questao p strong {
+    color: var(--texto-suave);
+}
+
+.card-questao a {
+    align-self: flex-end;
+    display: inline-block;
+    margin-top: 6px;
+    padding: 8px 16px;
+    background-color: var(--verde-header);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.card-questao a:hover {
+    background-color: #18522b;
+}
+
+
+footer {
+    max-width: 1100px;
+    margin: 24px auto 0 auto;
+    text-align: left;
+}
+
+footer a {
+    display: inline-block;
+    background-color: var(--bege-hover);
+    color: var(--texto-escuro);
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: 1px solid var(--borda-suave);
+    transition: all 0.2s ease;
+}
+
+footer a:hover {
+    background-color: var(--verde-header);
+    color: white;
+    border-color: var(--verde-header);
+}
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Plataforma SKYNET</h1>
+        <h2>Edição {{ fase.id_edicao.num_edicao }} | Fase {{ fase.num_fase }} ({{ fase.tipo_fase }})</h2>
+        <p>Abaixo estão as questões desta fase:</p>
+    </header>
+
+    <hr>
+
+    <div>
+        <form method="get" action="." class="form-filtros">
+    
+    <input type="text" name="documento" placeholder="Pesquise por Documento..." value="{{ request.GET.documento|default:'' }}" class="input-busca">
+    
+    
+    <select name="tipos" class="select-filtro" onchange="this.form.submit()">
+        <option value="">Tipo de Questão (Todos)</option>
+        <option value="Objetiva" {% if request.GET.tipos == 'Objetiva' %}selected{% endif %}>Objetiva</option>
+        <option value="Tarefa" {% if request.GET.tipos == 'Tarefa' %}selected{% endif %}>Tarefa</option>
+        <option value="Avaliação" {% if request.GET.tipos == 'Avaliação' %}selected{% endif %}>Avaliação</option>
+        <option value="Desafio" {% if request.GET.tipos == 'Desafio' %}selected{% endif %}>Desafio</option>
+    </select>
+    
+    
+    <input type="text" name="anos" placeholder="Pesquise por ano..." value="{{ request.GET.anos|default:'' }}" class="input-busca">
+
+    
+    <input type="text" name="tags" placeholder="Pesquise por tags..." value="{{ request.GET.tags|default:'' }}" class="input-busca">
+
+    
+    <select name="periodos" class="select-filtro" onchange="this.form.submit()">
+        <option value="">Períodos (Todos)</option>
+        <option value="Colonial" {% if request.GET.periodos == 'Colonial' %}selected{% endif %}>Colonial</option>
+        <option value="Imperial" {% if request.GET.periodos == 'Imperial' %}selected{% endif %}>Imperial</option>
+        <option value="Republicano" {% if request.GET.periodos == 'Republicano' %}selected{% endif %}>Republicano</option>
+    </select>
+    
+    <button type="submit" style="display: none;"></button>
+</form>        
+    </div>
+
+    <main class="container-questoes">
+        {% for questao in questoes %}
+            <div class="card-questao" style="margin-bottom: 20px; padding: 15px; border: 1px solid #ccc;">
+                <h3>Questão {{ questao.num_questao }}</h3>
+                <p><strong>Tipo:</strong> {{ questao.id_tipo_questao.tipo_nome }}</p>
+                <p><strong>Enunciado:</strong> {{ questao.enunciado }}</p>
+                
+                <a href="{% url 'detalhes_questao' questao.id_questao %}">Ver alternativas e detalhes</a>>
+            </div>
+        {% empty %}
+            <p>Nenhuma questão encontrada para esta fase.</p>
+        {% endfor %}
+    </main>
+
+    <footer>
+        <a href="{% url 'escolher_fase' fase.id_edicao.id_edicao %}">← Voltar para as Fases</a>
+    </footer>
+
+</body>
+</html>

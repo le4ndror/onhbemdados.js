@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>SKYNET - Questão {{ questao.num_questao }}</title>
+
+    <style>
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+:root {
+    --verde-header: #216d3a;
+    --fundo-creme: #f5f2e9;
+    --bege-card: #f2e9d8;
+    --bege-hover: #e8dec8;
+    --texto-escuro: #2b2823;
+    --texto-suave: #665f55;
+    --borda-suave: #d9ccb4;
+    --branco: #ffffff;
+    --badge-score: #e28743;
+}
+
+body {
+    background-color: var(--fundo-creme);
+    color: var(--texto-escuro);
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+
+header {
+    background-color: var(--verde-header);
+    color: white;
+    padding: 16px 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+header h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+header p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+header p strong {
+    color: #e2f0d9;
+}
+
+hr {
+    display: none;
+}
+
+
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.bloco-enunciado h2 {
+    font-size: 1.3rem;
+    color: var(--texto-escuro);
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.bloco-enunciado p {
+    background-color: var(--bege-card) !important;
+    border: 1px solid var(--borda-suave) !important;
+    border-left: 5px solid var(--verde-header) !important;
+    border-radius: 8px;
+    color: var(--texto-escuro);
+    padding: 20px !important;
+    font-size: 1.05rem !important;
+    line-height: 1.6 !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+
+
+.documentos-section, 
+.periodo-section, 
+.tag-section, 
+.ano-section {
+    background-color: var(--bege-card) !important;
+    border: 1px solid var(--borda-suave) !important;
+    border-left: 4px solid var(--verde-header) !important;
+    border-radius: 8px !important;
+    padding: 16px 20px !important;
+    margin-top: 0 !important;
+}
+
+.documentos-section h3, 
+.periodo-section h3, 
+.tag-section h3, 
+.ano-section h3 {
+    color: var(--texto-escuro) !important;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    background: var(--branco) !important;
+    border: 1px solid var(--borda-suave) !important;
+    border-radius: 6px !important;
+    padding: 8px 14px !important;
+    margin-bottom: 0 !important;
+    font-size: 0.9rem;
+}
+
+ul li strong {
+    color: var(--verde-header) !important;
+}
+
+
+.bloco-alternativas {
+    margin-top: 10px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.bloco-alternativas h3 {
+    font-size: 1.1rem;
+    color: var(--texto-escuro);
+    margin-bottom: 6px;
+}
+
+
+.card-alternativa {
+    background-color: var(--bege-card) !important;
+    border: 1px solid var(--borda-suave) !important;
+    border-radius: 10px !important;
+    padding: 16px !important;
+    margin-bottom: 0 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.card-alternativa:hover {
+    background-color: var(--bege-hover) !important;
+    border-color: var(--verde-header) !important;
+}
+
+.card-alternativa p:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: var(--texto-suave);
+    border-bottom: 1px solid var(--borda-suave);
+    padding-bottom: 6px;
+}
+
+.card-alternativa p:first-child strong {
+    color: var(--verde-header);
+    font-size: 1rem;
+}
+
+.card-alternativa p:last-child {
+    font-size: 0.95rem;
+    color: var(--texto-escuro);
+    line-height: 1.4;
+}
+
+
+footer {
+    max-width: 1100px;
+    margin: 20px auto 0 auto !important;
+    padding: 0 20px;
+}
+
+footer a {
+    display: inline-block;
+    background-color: var(--bege-hover);
+    color: var(--texto-escuro);
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: 1px solid var(--borda-suave);
+    transition: all 0.2s ease;
+}
+
+footer a:hover {
+    background-color: var(--verde-header);
+    color: white;
+    border-color: var(--verde-header);
+}
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Plataforma SKYNET</h1>
+        <p>
+            <strong>Edição:</strong> {{ questao.id_fase.id_edicao.num_edicao }} | 
+            <strong>Fase:</strong> {{ questao.id_fase.num_fase }} | 
+            <strong>Tipo:</strong> {{ questao.id_tipo_questao.tipo_nome }}
+        </p>
+    </header>
+
+    <hr>
+
+    <main>
+        <section class="bloco-enunciado">
+            <h2>Questão {{ questao.num_questao }}</h2>
+            <p style="font-size: 1.1em; line-height: 1.6; background-color: #f9f9f9; padding: 15px; border-left: 5px solid #007bff;">
+                {{ questao.enunciado }}
+            </p>
+        </section>
+
+        <section>
+            
+            <div class="documentos-section" style="margin-top: 25px; padding: 15px; background-color: #f9f9f9; border-left: 4px solid #007bff; border-radius: 4px;">
+                <h3 style="margin-top: 0; color: #333;">📄 Documentos de Apoio</h3>
+                
+                
+                {% if questao.documentos.all %}
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        {% for doc in questao.documentos.all %}
+                            <li style="margin-bottom: 12px; padding: 10px; background: white; border: 1px solid #ddd; border-radius: 4px;">
+                                <strong style="color: #007bff;">[{{ doc.tipo_documento }}]</strong> 
+                                <span style="font-weight: bold;">{{ doc.nome_documento }}</span>
+                                <p style="margin: 5px 0 0 0; color: #555; font-style: italic;">{{ doc.texto_documento }}</p>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p style="color: #777; font-style: italic;">Nenhum documento textual ou visual associado a esta questão.</p>
+                {% endif %}
+            </div>
+        </section>
+
+        <section>
+            
+            <div class="periodo-section" style="margin-top: 25px; padding: 15px; background-color: #f9f9f9; border-left: 4px solid #007bff; border-radius: 4px;">
+                <h3 style="margin-top: 0; color: #333;">📄 Periodos</h3>
+                
+                
+                {% if questao.periodos.all %}
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        {% for doc in questao.periodos.all %}
+                            <li style="margin-bottom: 12px; padding: 10px; background: white; border: 1px solid #ddd; border-radius: 4px;">
+                                <strong style="color: #007bff;" >[{{ doc.seculo }}]</strong> 
+                                <span style="font-weight: bold;">{{ doc.periodo_nome }}</span>  
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p style="color: #777; font-style: italic;">Nenhum periodo textual ou visual associado a esta questão.</p>
+                {% endif %}
+            </div>
+        </section>
+
+        <section>
+            
+            <div class="tag-section" style="margin-top: 25px; padding: 15px; background-color: #f9f9f9; border-left: 4px solid #007bff; border-radius: 4px;">
+                <h3 style="margin-top: 0; color: #333;">📄 Tags</h3>
+                
+                
+                {% if questao.tags.all %}
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        {% for doc in questao.tags.all %}
+                            <li style="margin-bottom: 12px; padding: 10px; background: white; border: 1px solid #ddd; border-radius: 4px;">
+                                <span style="font-weight: bold;">{{ doc.tag_nome }}</span>  
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p style="color: #777; font-style: italic;">Nenhuma tag textual ou visual associado a esta questão.</p>
+                {% endif %}
+            </div>
+        </section>
+
+        <section>
+            
+            <div class="ano-section" style="margin-top: 25px; padding: 15px; background-color: #f9f9f9; border-left: 4px solid #007bff; border-radius: 4px;">
+                <h3 style="margin-top: 0; color: #333;">📄 Ano Historico de Apoio</h3>
+                
+                
+                {% if questao.anos.all %}
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        {% for doc in questao.anos.all %}
+                            <li style="margin-bottom: 12px; padding: 10px; background: white; border: 1px solid #ddd; border-radius: 4px;">
+                                <span style="font-weight: bold;">{{ doc.ano }}</span>
+                                
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p style="color: #777; font-style: italic;">Nenhum ano historico ou visual associado a esta questão.</p>
+                {% endif %}
+            </div>
+        </section>
+
+        <section class="bloco-alternativas" style="margin-top: 30px;">
+            <h3>Alternativas / Itens cadastrados:</h3>
+            
+            {% for alternativa in alternativas %}
+                <div class="card-alternativa" style="margin-bottom: 15px; padding: 12px; border: 1px solid #ddd;">
+                    <p>
+                        <strong>Letra/ID:</strong> {{ alternativa.identificador }} | 
+                        <strong>Pontuação:</strong> {{ alternativa.pontuacao }} pontos
+                    </p>
+                    <p><strong>Texto da Alternativa:</strong> {{ alternativa.texto }}</p>
+                </div>
+            {% empty %}
+                <p style="color: #ff0000;">Nenhuma alternativa (ITEM) populada para esta questão ainda.</p>
+            {% endfor %}
+        </section>
+    </main>
+
+    <footer style="margin-top: 30px;">
+        <a href="{% url 'listar_questoes' questao.id_fase.id_fase %}">← Voltar para as Questões desta Fase</a>
+    </footer>
+
+</body>
+</html>
