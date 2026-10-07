@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>SKYNET - Busca Global de Questões</title>
+    <style>
+        * { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', Roboto, sans-serif; 
+}
+
+:root {
+    --verde-header: #216d3a;
+    --fundo-creme: #f5f2e9;
+    --bege-card: #f2e9d8;
+    --bege-hover: #e8dec8;
+    --texto-escuro: #2b2823;
+    --texto-suave: #665f55;
+    --borda-suave: #d9ccb4;
+    --branco: #ffffff;
+}
+
+body { 
+    background-color: var(--fundo-creme); 
+    color: var(--texto-escuro); 
+    min-height: 100vh; 
+    padding-bottom: 40px; 
+}
+
+/* Cabeçalho */
+header { 
+    background-color: var(--verde-header); 
+    color: white; 
+    padding: 16px 24px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15); 
+}
+
+header h1 { 
+    font-size: 1.4rem; 
+    font-weight: 700; 
+    margin-bottom: 4px; 
+}
+
+header p { 
+    font-size: 0.9rem; 
+    opacity: 0.9; 
+}
+
+/* Container Principal */
+.main-container { 
+    max-width: 1100px; 
+    margin: 24px auto; 
+    padding: 0 20px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+/* Form de Filtros */
+.form-filtros {
+    background-color: var(--bege-card); 
+    border: 1px solid var(--borda-suave);
+    border-radius: 12px; 
+    padding: 16px;
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+    gap: 10px;
+}
+
+.input-busca, .select-filtro {
+    width: 100%; 
+    padding: 8px 12px; 
+    background-color: var(--branco);
+    border: 1px solid var(--borda-suave); 
+    border-radius: 6px; 
+    font-size: 0.85rem; 
+    outline: none;
+}
+
+.input-busca:focus, .select-filtro:focus {
+    border-color: var(--verde-header);
+}
+
+.btn-buscar {
+    grid-column: 1 / -1; 
+    padding: 10px; 
+    background-color: var(--verde-header);
+    color: white; 
+    border: none; 
+    border-radius: 6px; 
+    font-weight: bold; 
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-buscar:hover { 
+    background-color: #18522b; 
+}
+
+/* Container dos Cards (Lista) */
+.container-questoes { 
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+/* CARD DA QUESTÃO (Compacto + Estilizado) */
+.card-questao {
+    background-color: var(--bege-card);
+    border: 1px solid var(--borda-suave);
+    border-radius: 8px;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transition: all 0.2s ease;
+}
+
+.card-questao:hover {
+    background-color: var(--bege-hover);
+    border-color: var(--verde-header);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+/* Badges / Tags no topo do card */
+.badge-info { 
+    font-size: 0.72rem; 
+    padding: 2px 8px; 
+    border-radius: 4px; 
+    background-color: var(--branco);
+    border: 1px solid var(--borda-suave);
+    color: var(--texto-suave);
+    font-weight: 600;
+    display: inline-block;
+}
+
+/* Título / Número da Questão */
+.card-questao h3 { 
+    font-size: 0.95rem; 
+    color: var(--verde-header);
+    font-weight: 700;
+    padding-bottom: 4px; 
+    border-bottom: 1px solid var(--borda-suave); 
+}
+
+/* Texto do Enunciado (limitado em 2 linhas) */
+.card-questao p { 
+    font-size: 0.85rem; 
+    line-height: 1.35; 
+    color: var(--texto-escuro);
+    
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Botão Ver Detalhes */
+.card-questao a { 
+    font-size: 0.78rem; 
+    padding: 6px 12px; 
+    border-radius: 4px; 
+    align-self: flex-end;
+    background-color: var(--verde-header);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.card-questao a:hover {
+    background-color: #18522b;
+}
+
+/* Botão Voltar do Rodapé */
+footer a { 
+    display: inline-block; 
+    background-color: var(--bege-hover); 
+    color: var(--texto-escuro);
+    text-decoration: none; 
+    padding: 10px 18px; 
+    border-radius: 8px; 
+    font-size: 0.9rem; 
+    font-weight: 700; 
+    border: 1px solid var(--borda-suave);
+    transition: all 0.2s;
+}
+
+footer a:hover {
+    background-color: var(--verde-header);
+    color: white;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>REPOSITÓRIO SKYNET - BUSCA GLOBAL</h1>
+        <p>Pesquise questões em todas as edições e fases registradas no banco de dados</p>
+    </header>
+
+    <main class="main-container">
+
+        <!-- PAINEL DE FILTROS -->
+        <form method="get" action="." class="form-filtros">
+            <input type="text" name="documento" placeholder="Documento..." value="{{ busca_documento }}" class="input-busca">
+            
+            <input type="text" name="enunciado" placeholder="Enunciado..." value="{{ busca_enunciado }}" class="input-busca">
+
+            <select name="tipos" class="select-filtro">
+                <option value="">Tipo (Todos)</option>
+                <option value="Objetiva" {% if busca_tipo == 'Objetiva' %}selected{% endif %}>Objetiva</option>
+                <option value="Tarefa" {% if busca_tipo == 'Tarefa' %}selected{% endif %}>Tarefa</option>
+                <option value="Avaliação" {% if busca_tipo == 'Avaliação' %}selected{% endif %}>Avaliação</option>
+                <option value="Desafio" {% if busca_tipo == 'Desafio' %}selected{% endif %}>Desafio</option>
+            </select>
+            
+            <input type="text" name="anos" placeholder="Ano Histórico..." value="{{ busca_ano }}" class="input-busca">
+            <input type="text" name="tags" placeholder="Tags..." value="{{ busca_tag }}" class="input-busca">
+
+            <select name="periodos" class="select-filtro">
+                <option value="">Períodos (Todos)</option>
+                <option value="Colonial" {% if busca_periodo == 'Colonial' %}selected{% endif %}>Colonial</option>
+                <option value="Imperial" {% if busca_periodo == 'Imperial' %}selected{% endif %}>Imperial</option>
+                <option value="Republicano" {% if busca_periodo == 'Republicano' %}selected{% endif %}>Republicano</option>
+            </select>
+
+            <button type="submit" class="btn-buscar">🔍 FILTRAR QUESTÕES</button>
+        </form>
+
+        <div>
+            <a href="{% url 'escolher_edicao' %}">← Voltar para a Página Inicial</a>
+        </div>
+
+        <!-- LISTAGEM GLOBAL DAS QUESTÕES -->
+        <section class="container-questoes">
+            {% for questao in questoes %}
+                <div class="card-questao">
+                    <div>
+                        <span class="badge-info">Edição {{ questao.id_fase.id_edicao.num_edicao }}ª ({{ questao.id_fase.id_edicao.ano_edicao }})</span>
+                        <span class="badge-info">Fase {{ questao.id_fase.num_fase }}</span>
+                        <span class="badge-info">Tipo: {{ questao.id_tipo_questao.tipo_nome }}</span>
+                    </div>
+                    <h3>Questão {{ questao.num_questao }}</h3>
+                    <p><strong>Enunciado:</strong> {{ questao.enunciado|truncatewords:30 }}</p>
+                    <a href="{% url 'detalhes_questao' questao.id_questao %}">Ver detalhes da questão ➔</a>
+                </div>
+            {% empty %}
+                <p style="text-align: center; color: var(--texto-suave);">Nenhuma questão encontrada com os filtros selecionados.</p>
+            {% endfor %}
+        </section>
+
+        <footer>
+            <h2>Parabéns por chegar até o fim</h2>
+        </footer>
+
+    </main>
+
+</body>
+</html>

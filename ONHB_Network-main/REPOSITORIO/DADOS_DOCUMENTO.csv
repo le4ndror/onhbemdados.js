@@ -1,0 +1,946 @@
+﻿id_documento;nome_documento;tipo_documento
+1;Propaganda do TK 85;Propaganda
+2;Propaganda do TK 95;Propaganda
+3;Propaganda do TK 82-C 6;Propaganda
+4;Trechos da carta de Pero Vaz de Caminha;Carta
+5;Fotografia 1;Fotografia
+6;Os Caminhos do Ouro;Artefato
+7;Mapa do Brasil - atual Mapa das províncias brasileiras - 1822;Mapa
+8;"Trecho 1 de ""Triste fim de Policarpo Quaresma""";Literatura
+9;"Trecho 2 de ""Triste fim de Policarpo Quaresma""";Literatura
+10;Documento 1;Documento
+11;Charge 1;Charge
+12;Bandoleiros, cangaceiros e matreiros;Fotografia
+13;Viagem à Província de Goiás (Auguste de Saint-Hilaire);Texto de viajante
+14;Diário de uma Viagem ao Brasil (Maria Graham);Texto de viajante
+15;O que era a “língua geral”? (Glossário);Texto de viajante
+16;A morte de Solano Lopez;Gravura
+17;Relatório apresentado ao parlamento holandês;Trecho de relatório
+18;“A Era do Automóvel”, João do Rio;Crônica
+19;Propaganda de automóvel;Propaganda
+20;O Bom-Crioulo;Texto literário
+21;Dossiê “Marujada em fúria!” (Artigos);Texto literário
+22;Documento do Conselho da Fazenda, 1657;Mapa
+23;Mapa da divisão territorial do país, séc. XVII;Mapa
+24;Mapa das colônias portuguesas à época das Grandes Navegações;Mapa
+25;Mapa indicando o local contemporâneo das antigas colônias;Mapa
+26;"Trecho do jornal ""A Plebe""";Artigo de jornal
+27;Voto feminino;Trecho de artigo de jornal
+28;"Artigo de jornal ""Direito de voto feminino completa 76 anos no Brasil""";Artigo de jornal
+29;Viagem à terra do Brasil de Jean de Léry;Texto de viajante
+30;Viagem à terra do Brasil (Versão/Trecho adicional);Texto de viajante
+31;Lista de colonos;Listagem oficial
+32;O preço da liberdade;Artigo de revista
+33;Artigo da revista Anauê (1935);Artigo de revista
+34;Cartaz integralista;Cartaz
+35;"Trecho de ""Cultura e opulência do Brasil""";Trecho de livro
+36;Imagem de Santa;Artefato
+37;"Trecho do texto ""Falso moralismo""";Artigo de revista
+38;Sugestões de leituras sobre a ditadura;Livros e sites
+39;Uma nuvem que cresce cada vez mais;Gravura
+40;Getúlio e Roosevelt;Ilustração
+41;Trecho de “Brás, Bexiga e Barra Funda”;Texto literário
+42;O português macarrônico de Juó Bananère;Explanação
+43;Charge sobre a Questão Christie;Charge
+44;Lugares malditos: a cidade do ‘outro’ no Sul brasileiro;Artigo acadêmico
+45;A Belle Époque em Fortaleza: remodelação e controle;Artigo acadêmico
+46;Navegação a vapor do Rio Amazonas;Relatório
+47;Carta do Brasil (1549);Carta
+48;O Brasil no Atlântico Sul;Artigo de revista
+49;"Trecho de ""O trato dos viventes""";Documento/Livro
+50;Conselho Ultramarino;Representação legal
+51;Quadrinha de 1824;Quadrinha
+52;Texto de Antonio Vieira (1694);Documento
+53;Texto de Domingos Jorge Velho;Documento
+54;Guerrilha do Beijo;Artigo de revista
+55;Nação e Civilização nos Trópicos;Artigo acadêmico
+56;A paternidade do passado;Artigo acadêmico
+57;Dom Pedro aclamado após a proclamação da Independência;Pintura histórica
+58;Independência ou Morte (O grito do Ipiranga);Pintura histórica
+59;Fala do Trono;Discurso
+60;Fala do Trono - Texto completo;Discurso
+61;Luzia;Artigo acadêmico
+62;Liberdade não é de graça;Entrevista
+63;Da solidariedade à assistência;Artigo acadêmico
+64;Maldita Guerra;Livro
+65;A morte de Solano Lopez (Versão Livro);Livro
+66;Cultura brasileira nesse fim de século;Artigo acadêmico
+67;Divertimento Admirável;Documento
+68;Emílio Goeldi - A Aventura de um Naturalista;Livro
+69;Carta Circular de Emílio Goeldi;Livro/Documento
+70;Estampa de espécies de aves amazônicas;Livro/Imagem
+71;Abaixo o João Bobão;Artigo acadêmico
+72;Cronologia de motins e rebeliões;Cronologia
+73;Cantores do rádio;Livro
+74;Sugestões de leitura - Alcir Lenharo;Livro
+75;Recife: espelhos do passado e labirintos do presente;Capítulo de livro
+76;Guerra dos Farrapos;Artigo acadêmico
+77;Os excluídos;Livro
+78;Em 2008, bancos tiveram mais ajuda do que países pobres em 50 anos;Artigo de jornal
+79;Revista O Cruzeiro, 1949, sobre futebol;Trecho de artigo de revista
+80;Trecho de crônica de Nelson Rodrigues sobre futebol;Trecho de crônica
+81;Mapa Brasilia et Peruvia (1593);Mapa
+82;Uma cama para o Ouvidor;Artigo de revista
+83;Carnaval é uma festa democrática;Charge
+84;Pra que discutir com Madame;Letra de música
+85;Coleção de frases de e sobre Fernando Collor, dezembro de 1990;Trecho de revista
+86;Casamento integralista;Fotografia
+87;Analfabetismo, crônica de Machado de Assis (1876);Crônica
+88;A condição feminina no Rio de Janeiro no século XIX;Relato de viajante
+89;Suicídio de Getúlio;Artigo de revista
+90;Adoração dos Magos;Pintura
+91;O Inferno;Pintura
+92;Trecho de “A danação do objeto – o museu no ensino de história”;Trecho de livro acadêmico
+93;Aviso ao povo bahiense;Cartaz
+94;Trecho de “Índio sabe a receita”;Trecho de artigo de revista
+95;Escravidão ou morte;Gravura
+96;Angelo Agostini – dados biográficos;Breve biografia
+97;Tiradentes — o amigo da liberdade;Trecho de texto de jornal
+98;História do Brasil por Frei Vicente do Salvador;Trecho de livro
+99;Propaganda dos cigarros “Fascista”;Propaganda
+100;A civilização;Gravura
+101;Depoimento de Dona Alice;Depoimento
+102;Depoimento de Sr. Ariosto;Depoimento
+103;Depoimento de Dona Brites;Depoimento
+104;Depoimento de Sr. Antonio;Depoimento
+105;Links sobre história oral;Links
+106;Fragmento da transcrição da fala do ex-ministro Magalhães Pinto;Transcrição de áudio
+107;Lenço no Pescoço;Letra de música
+108;Rapaz Folgado;Letra de música
+109;Trecho de entrevista de Elias Calixto;Trecho de entrevista
+110;Mobilizar Grandes Massas – para defender a paz;Artigo de revista
+111;Fios árabes, tecido brasileiro;Trecho de artigo de revista
+112;“Turco é a mãe!”;Trecho de romance
+113;Fogo Morto;Trecho de romance
+114;Mulheres na colônia;Trecho de carta
+115;Igreja do Rosário, Embu;Fotografia
+116;Povoamento das Américas;Trecho de artigo acadêmico
+117;Mensagem de Arthur da Silva Bernardes;Discurso presidencial
+118;Mensagem de Juscelino Kubitschek de Oliveira;Discurso presidencial
+119;Links para as Constituições Federais;Links
+120;Palmares;Trechos de artigos e declarações
+121;Introdução a uma história indígena;Texto acadêmico
+122;Tupi do Cuminapanema: eles se chamam Zo’é;Texto acadêmico
+123;Febre amarela;Gravura publicada em jornal
+124;Carne sem osso, farinha sem caroço;Artigo de revista
+125;Caipira Picando Fumo;Pintura
+126;Cabral e Vespúcio;Trecho de texto acadêmico
+127;Reminiscências de viagens e permanência no Brasil;Relato de viajante
+128;Naufragios y Comentários;Relato de viajante
+129;D. Pedro II e o exército;Trecho de livro
+130;Paisagem com Plantação (O Engenho);Pintura
+131;Estúdio fotográfico do italiano Oreste Cilento, em São Paulo;Fotografia
+132;Charges de Henfil;Charges
+133;Revogação de carta de alforria;Documento legal
+134;Amor à terra?;Trecho de artigo de revista
+135;Manifesto Republicano;Manifesto político
+136;Errantes do novo século;Trecho de livro
+137;Messianismo no Brasil;Trecho de livro
+138;Engenheiro Rudolf Oscar Kesserling e índio da tribo Caripuna;Fotografia
+139;Gazeta do Rio de Janeiro;Jornal impresso
+140;Lei de Terras de 1850;Documento legal
+141;Eclipse total do sol;Discurso presidencial
+142;Propaganda de eletrodomésticos;Propaganda
+143;Versão 1 da canção Lili Marlene;Letra de música
+144;Versão 2 da canção de Lili Marlene;Letra de música
+145;Chronica do descubrimento do Brazil;Artigo de jornal
+146;Apesar de vocês;Trecho de livro
+147;Sermão de Vieira;Sermão
+148;Segredos internos;Trecho de livro
+149;Ex-voto – Taunay;Pintura
+150;Ex-voto – anônimo;Pintura
+151;História dos fatos recentemente praticados...;Relato de viajante
+152;Festas do Brasil Colonial;Trecho de livro
+153;Carta a Joaquim Nabuco;Carta
+154;Mundos do Trabalho;tipo não informado
+155;Artigo: Revista Tempo, Voto de Cabresto;Artigo
+156;O Cortiço (Artigo de Lilian Fessler Vaz);Artigo de revista
+157;O Brasil antes dos brasileiros;tipo não informado
+158;"O Malho, ""Café Predileto"", 1952";Propaganda
+159;Trecho inicial da canção Cidadão [1978];Letra de música
+160;Obras da Rodovia Acre-Brasília, 1960;Fotografia
+161;Iracema uma Transa Amazônica, 1976;Fotografia
+162;Fragmentos Setecentistas – escravidão, cultura e poder;tipo não informado
+163;O Mequetrefe;Gravura
+164;GPS à moda antiga;Artigo de Revista
+165;Regimento de Tomé de Souza, 1548;Documento legal
+166;A voz do passado – História oral;Trecho de Livro Acadêmico
+167;O que faremos de nossas filhas?;Trecho de Jornal
+168;De meninas fiandeiras a mulheres operárias;Trecho de Tese Acadêmica
+169;Segunda classe - Tarsila do Amaral (1933);Pintura
+170;Morte e Vida Severina (1955);Trecho de Auto de Natal
+171;Jardim Botânico no Pará;Trecho de Carta
+172;De onde vem o mito;Trecho de Artigo de Revista
+173;Primeira Bandeira da República;Bandeira
+174;Freyre e os Ingleses;Trecho de Livro Acadêmico
+175;Novembrada;Fotografia
+176;"Seção de esporte da Revista ""A Vida Moderna""";Revista
+177;Ford na Amazônia;Depoimentos
+178;Cemitério em Salvador (A morte é uma festa);Documento Legal
+179;Fernão Cardim, Tratado da Terra e Gente do Brasil;Documento/Relato
+180;Fernão Cardim (Biografia);Biografia
+181;Carta da Terra;Trecho de Carta
+182;Cenários divinos de Mestre Ataíde;Trecho de Jornal
+183;O Pasquim - Campanha pela Anistia;Charge
+184;Carta Anônima: Movimento Integralista;Trecho de Carta
+185;Brigue Palhaço;Trecho de Artigo Acadêmico
+186;Brasília, Sinfonia da Alvorada;Trecho de Letra de Música
+187;Imagem I, II e III - Igreja da Ordem Terceira de São Francisco;Fotografias
+188;Os delírios da razão;Trecho de Livro Acadêmico
+189;"Diário do hospício; o cemitério dos vivos de Lima Barreto";Trecho de Livro
+190;Transcrição da Carta Testamento de Getúlio Vargas;Documento
+191;A formação histórico-etnográfica do povo rio-grandense;Pintura Mural
+192;Escola para negros e pardos;Documentos Legais
+193;Quilombo de Quariterê;Trecho de Livro Acadêmico
+194;Mulheres e exílio;Depoimento
+195;Acidente de Trabalho de Eugênio de Proença Sigaud, 1944;Pintura
+196;Massacre de Uruaçu;Trecho de Carta
+197;Ilha das Flores;Trecho de Roteiro de filme
+198;Grafite no muro;Grafite
+199;Carta do Padre Antonio Vieira, 1626;Carta
+200;Poder Moderador;Documento legal
+201;Mapa das fortificações da Ilha de Santa Catarina, 1786;Mapa
+202;Liberdade, Liberdade! Abra as asas sobre nós;Letra de música
+203;Tropas e Tropeiros;Trecho de livro acadêmico
+204;O modo meeiro (canção de rosário);Texto literário
+205;Processo administrativo Ibero-americano;Trecho de texto acadêmico
+206;500º aniversário do descobrimento;Tirinha
+207;O domínio das roupas;Trecho de artigo de revista
+208;Geographia politica;Charge
+209;Sibéria brasileira;Artigo de revista
+210;Relação do português anônimo;Relato de viajante
+211;A Primeira Guerra Mundial;Trecho de livro acadêmico
+212;Batalha dos Guararapes (Victor Meirelles);Pintura
+213;História da Indústria e do Trabalho no Brasil;Trecho de livro acadêmico
+214;Serro Frio;Pintura
+215;Capa do Jesuino Brilhante;Gravura
+216;Cordel: Jesuino Brilhante, 2009;Trecho de texto literário
+217;A ditadura civil-militar (texto completo);Artigo de jornal
+218;Basta pedir Modess;Propaganda
+219;Alvará de D. Maria I;Documento legal
+220;História da missão dos padres capuchinhos na ilha do Maranhão;Relato de viajante
+221;Anúncio de fuga de escravo;Anúncio de jornal
+222;O diabo do feitiço;Artigo de revista
+223;O bom museu;Artigo de jornal
+224;Alunos da escola Darci Vargas;Fotografia
+225;Cartaz com imagem de Getúlio Vargas;Cartaz
+226;História do descobrimento e conquista da India pelos portugueses;Crônica
+227;Pontos de Jongo;Letra de música
+228;Sobre o Jongo;Trecho de texto acadêmico
+229;Capitães de Areia - O Trapiche;Trecho de texto literário
+230;Carte d l’Atlantique (1550);Mapa
+231;Inundação da Várzea do Carmo (1892);Fotografia/Documento
+232;Propaganda (Década de 1980);Propaganda
+233;Mostra do Redescobrimento é inaugurada em SP;Artigo de jornal
+234;Manto Tupinambá;Fotografia
+235;Brasileiro!;Panfleto
+236;Confissões da Bahia;Trecho de processo
+237;Manifesto Mangue Beat;Trecho de manifesto
+238;Proteja-se deste plano verão;Cartaz
+239;Rapsodia verde;Trecho de artigo acadêmico
+240;Gazeta de notícias de 14 de novembro de 1904;Trecho de notícia de jornal
+241;Epopéia Rio-grandense, Missioneira e Farroupilha;Painel de azulejos
+242;Sessão do Conselho do Estado, 1922;Pintura
+243;Sobre a Pororoca, 1767;Trecho de carta
+244;Sobre uma doença infantil da historiografia;Trecho de artigo de jornal
+245;A história, o índio e o livro didático;Trecho de livro acadêmico
+246;Brincadeira com ossos;Fotografia
+247;Politicamente incorreto não é transgressor...;Texto de blog
+248;Carta aberta aos humoristas do Brasil...;Texto de blog
+249;História da música ocidental;Texto didático
+250;A obra de Carlos Gomes no contexto da transição monarquia/república;Texto acadêmico
+251;A força indômita;Imagem/obra artística
+252;Exposição “Curitiba Anos 50”;Notícia
+253;Lei nº 2.040, de 28 de setembro de 1871;Documento legal
+254;Entrevista de José Carlos Capinan;Entrevista
+255;Soy loco por ti, América;Letra de música
+256;A Cigarra;Propaganda em revista
+257;Do espetáculo da natureza à natureza do espetáculo;Texto historiográfico
+258;Visão do jogo;Trecho de livro
+259;Frontispício;Imagem de livro
+260;Vidas Secas;Trecho de romance
+261;Feliz Ano Velho;Trecho de livro/autobiografia
+262;Lista de pertences de Rubens Beyrodt Paiva;Documento oficial/listagem
+263;Revista Illustrada, fevereiro de 1893;Imagem de revista/charge
+264;Aspectos históricos da divulgação científica no Brasil;Texto historiográfico
+265;A primeira escola;Artigo/jornal
+266;Partida da Monção, 1897;Pintura/obra artística
+267;Tropa diferente;Texto de viajante/artigo histórico
+268;O último Bragança e o primeiro Silva;Crônica
+269;Tratado Descritivo do Brasil;Documento histórico/livro
+270;Memórias de um colono no Brasil;Memórias/relato autobiográfico
+271;Gravura: “Frontispício” de História Natural do Brasil, 1648;Gravura
+272;Mudança de acampamento da construção da linha de São Francisco;Fotografia
+273;Capa do LP Tropicália ou Panis et Circenses, 1968;Capa de disco
+274;Samba, Di Cavalcanti, 1925;Pintura/obra artística
+275;Incêndio em apartamento de colecionador destrói Di Cavalcanti;Notícia/jornal
+276;Os lugares de memória dos Mucker;Texto historiográfico/artigo
+277;Por mares nunca dantes cartografados;Texto historiográfico
+278;Escravos e senhores nos engenhos do Brasil;Texto historiográfico
+279;O Correio de Victoria, 1849;Jornal/documento de época
+280;Projeto da Rua Juscelino Kubitschek;Croqui/projeto urbanístico
+281;Projeto da Praça dos Girassóis;Croqui/projeto urbanístico
+282;O cozinheiro nacional, 1860–1870;Livro de receitas/documento histórico
+283;Cuitelinho;Canção/música popular
+284;Gênero e Artefato;Texto/manual
+285;“Amadeu Amaral”, Revista Feminina, dez. 1919;Fotografia/revista
+286;Carta do arcebispo Domingos Sertão Mafrense, 1702;Carta/documento epistolar
+287;Redenção de Cam, Modesto Brocos y Gómez, 1895;Pintura/obra artística
+288;A matadeira (Canção);Canção
+289;A matadeira (Documentário);Documentário
+290;A vitória da colonização açoriana em Santa Catarina;Texto historiográfico
+291;Tempora Mutantur, Pedro Weingärtner, 1889;Pintura/obra artística
+292;Carta de Pedro Weingärtner;Carta/documento epistolar
+293;Hamilton dos Santos... profissão Cidadão;Conto/texto literário
+294;Missão Salesiana;Fotografia/documento visual
+295;A greve geral de 1917 em São Paulo e a imigração italiana;Texto historiográfico
+296;Divisão Político-Administrativa do Brasil, 1943;Mapa/documento cartográfico
+297;Lei nº 2.040, de 28 de setembro de 1871 – Trecho II;Lei/documento jurídico
+298;Visões da liberdade, Sidney Chalhoub;Livro/texto historiográfico
+299;A poesia transcendente de Parnaso de além-túmulo;Texto historiográfico/artigo
+300;O diabo na livraria dos inconfidentes;Texto historiográfico
+301;Boatos sobre os inconfidentes mineiros, 1789;Documento de época
+302;Azevedinho e seus problemas;Artigo historiográfico
+303;Revista Illustrada, suplemento ed. 189, jan 1880 – Parte 1;Revista ilustrada
+304;Revista Illustrada, suplemento ed. 189, jan 1880 – Parte 2;Revista ilustrada
+305;Pesadelo, 1972;Canção
+306;Sambaqui Morro do Peralta;Imagem arqueológica
+307;Formidável contágio;Trecho de documento histórico
+308;O dragão e a cidade: lendas do Ceará;Artigo acadêmico
+309;A República, 24 de abril de 1902;Trecho de jornal
+310;O Rio de Janeiro como é: 1824–1826 (Huma vez e nunca mais);Relato de viajante
+311;Comer, Beber, Governar;Artigo historiográfico
+312;É proibido Dobrar à Esquerda, Rubens Gerchman, 1965;Obra de arte
+313;História com “h” minúsculo;Artigo jornalístico
+314;Relatório de torturas de Inês Etienne (O Pasquim);Relatório
+315;Contributos da Nova História Política...;Artigo acadêmico
+316;"Pintura ""Arrufos"" e texto do Diário Illustrado (1887)";Pintura
+317;"Romance ""Robinson Crusoé"" (1719)";Literatura
+318;Natureza, cultura e política...;Texto
+319;Escravos e assalariados na antiga pesca da baleia;Texto
+320;Charge de Rubens Felix (2007);Charge
+321;Sonhos Guaranis (1982);Letra de canção
+322;Testamento de Bartolomeu da Cunha Gago;Documento
+323;"HQ: ""Graúna"", de Henfil";HQ
+324;A recuperação da Bahia de Todos os Santos, 1634;Pintura
+325;Charge: “Empréstimo Inglês”, Vida Fluminense, 1875;Charge
+326;Passeata, Fotografia, 1968;Fotografia
+327;Folha de S. Paulo (26/08/1992 e 18/06/2013);Artigo de jornal
+328;O bêbado e a equilibrista (1979);Canção
+329;Operários, de Carlos da Silva Prado;Gravura
+330;A Questão do Rio Pirara (1829-1904);Texto
+331;Dicionários: Laudelino Freire, El-Khatib e Houaiss;Dicionário
+332;Trecho do Diário Oficial (09/07/1999);Documento oficial
+333;Carta Particular (1835);Documento
+334;Discurso de posse na Sociedade de Geografia do RJ;Discurso
+335;A visão dos holandeses (Benedito Calixto, 1927);Pintura
+336;Tanto Mar (versões 1975 e 1978);Letra de música
+337;Azulejo colonial... / Grande panorama de Lisboa;Texto/Obra
+338;Detalhe: Painel de Portinari;Obra de arte
+339;Obra de Adriana Varejão;Obra de arte
+340;A dramática realidade das estatísticas (O Cruzeiro, 1958);Documento
+341;O Tempo e o Vento - O Continente (1949);Trecho de literatura
+342;Presidentes no Avião Presidencial (2013);Fotografia
+343;Decreto-Lei nº 1.077 (26/01/1970);Documento legal
+344;Annaes da Assembleia Legislativa do Grão-Pará (1871);Documento oficial
+345;"Prancha botânica: ""Chaetogastra repanda"" (1829)";Ilustração científica
+346;"Poema: ""Congresso Internacional do Medo""";Literatura
+347;Foto e depoimento de Lenalda Campos Duboc;Depoimento
+348;A mulher sergipana...;Texto
+349;"Cartas: ""Os meus romanos"" (Ina von Binzer)";Carta
+350;Tupis, tapuias e historiadores (John Manuel Monteiro);Texto acadêmico
+351;Cena de Rua (patrão e escravo);Aquarela
+352;Barulhinho Bom;Texto
+353;Fandango Caiçara;Documento
+354;Instruções para a Polícia do Theatro de São Pedro de Alcantara;Documento
+355;Monumento aos Garimpeiros;Monumento
+356;Roraima, Terra Bendita;Cordel
+357;Carta Geografica da Capitania do Piauhi;Mapa
+358;Oeyras do Piauhi;Mapa
+359;Talão de Greves;Documento
+360;Carta de Calfat ao delegado;Documento
+361;Histórias de Santa Cruz (Gândavo);Literatura/Relato
+362;Principio e origem dos indios;Relato
+363;Diretório dos Índios;Documento
+364;Por ser menina - Distribuição das Tarefas;Texto
+365;Negro Drama (Racionais MC's);Música
+366;Ser especial (Crônica sobre dinheiro e status);Texto
+367;A Primeira Missa no Brasil (1860);Quadro
+368;Descobrimento do Brasil (1936);Fotograma
+369;Amazonas pede desculpas aos japoneses por abusos na 2ª Guerra;Reportagem
+370;Emenda Popular PE00086-5 (Constituinte 1987);Documento
+371;Escravo de Saladeiro;Música
+372;Canibais de Theodore de Bry (1593);Gravura
+373;"Jornal ""A Lucta"" (Sobral, CE, 1914) - Os fanáticos de Paraná";Matéria de Jornal
+374;Memórias de um Sargento de Milícias (1852);Trecho de Literatura
+375;O arsenal da macumba (Museu da Polícia do RJ);Texto
+376;"Jornal ""A Manhã"" (09/08/1935 e 17/09/1935)";Jornal
+377;Atlas dos Mares (França, 1538);Pergaminho
+378;Festa de Oxalufan (Carybé, 1980);Iconografia
+379;Paraisópolis (fotografia de Tuca Vieira, c.2002);Fotografia
+380;Nordeste Independente ou Imagine o Brasil;Música
+381;Telegrama Recebido – Departamento de Estado;Documento
+382;Semana Ilustrada nº 05 e 35 (1861);Imagem
+383;Futebol é coisa para macho?;Texto
+384;Terra Sonâmbula (Mia Couto);Livro
+385;Pecus e Pecúnia discutem a divisão (1978);Pintura
+386;Um sepulcro grande, amplo e fundo;Texto
+387;Saudade (1899);Pintura
+388;“Aderir”, “jurar” e 'aclamar”;Texto
+389;Fotos de Benjamin Abrahão Botto (1936);Fotografia
+390;As coletividades anormais;Livro
+391;Cartilha: Trabalho escravo: vamos abolir;Cartilha
+392;Repressão e mudanças...;Texto
+393;"Charge da Revista ""Careta"" (1925)";Charge
+394;Frete (Renato Teixeira);Música
+395;Charge: Folha de S. Paulo, 05 de março de 1986;Charge
+396;Pinturas: Terceira Vítima, Rua 57, Césio (1987);Pinturas
+397;Pesquisa sobre interesse vocacional (IBOPE);Documento
+398;Navegação de Cabotagem (Jorge Amado);Livro
+399;Carta de Lei de 16 de Dezembro de 1815;Documento
+400;Candangos (Foto);Fotografia
+401;Dois Guerreiros (Bruno Giorgi);Monumento
+402;Charge: Figaro, 15 de janeiro de 1876;Charge
+403;Auto de perguntas (1874);Documento
+404;Maria Bethânia - a menina dos olhos de Oyá;Samba-enredo
+405;"HQ ""Estórias Gerais"" (Srbek e Colin)";HQ
+406;Texto historiográfico sobre a seca de 1915;Texto historiográfico
+407;Relatos de Thevet;Relato de viajante
+408;Fotografia de pichação em Brasília;Fotografia
+409;Telegrama diplomático dos EUA (Ed. 8);Documento
+410;Texto opinativo e fotografias de 2015;Texto/Foto
+411;Fotografia dos pertences do bebê Vitor;Fotografia
+412;Questionário da 8ª ONHB;Documento
+413;"""Bichas"" (anúncios)";Anúncio de jornal
+414;Guia Médico de Chernoviz (1841);Livro
+415;Carta Régia de 4 de dezembro de 1816;Documento legal
+416;"Pintura ""Os invasores"" (1936)";Pintura
+417;"Jornal ""Correio do Natal"" (30/09/1883)";Jornal
+418;Boletim Colégio Stafford;Documento escolar
+419;Voto feminino e feminismo (Diva Nolf Nazario, 1922);Texto
+420;"Conto ""Negrinha""";Literatura
+421;Bando de 24 de março de 1774;Documento
+422;"Música ""Abrigo de vagabundos""";Música
+423;"Poema ""A implosão da mentira""";Literatura
+424;Planta de Restituição da Bahia, João Teixeira Albernaz, 1631;Mapa
+425;Pintura: “Batalha do Avaí”, Pedro Américo, déc. 1870;Pintura
+426;Missa campal celebrada pela abolição da escravatura, 1888;Fotografia
+427;Diálogos das grandezas do Brasil (1618);Literatura/Relato
+428;"Charges da revista ""A Galleria Illustrada"" (1888)";Charge
+429;Autos de Inventário (1759);Documento
+430;"Documentos sobre a peça ""Tudo Preto"" (1926)";Documento
+431;"Texto ""As pistas do monarca do Congo""";Texto
+432;Decreto de 6 de junho de 1818;Documento legal
+433;"Notícia ""O Imparcial"" e foto no Museu Nacional";Notícia/Foto
+434;Entrevista no Jornal da Unicamp (2013);Entrevista
+435;Lembranças de E-9;Relato
+436;Lei de 1949;Documento legal
+437;Depoimentos de Creusa Castro e Antônio Almeida;Depoimento
+438;"Trecho de ""Quarto de Despejo"" (1960)";Literatura
+439;Alvará de 20 de setembro de 1760;Documento legal
+440;"Letra da música ""Canto das três raças""";Música
+441;"Informativo sindical ""O Carretel""";Documento
+442;"Texto ""Fábulas da modernidade no Acre""";Texto
+443;Fotos e texto sobre Pêssankas;Cultura/Imagem
+444;Decreto nº 31.469 e notícia de jornal;Documento legal
+445;Fotografia de Sebastião Salgado (1997);Fotografia
+446;Texto sobre o Aedes e febre amarela;Texto informativo
+447;Tweets do Senado Federal (1a e 1b);Documento Digital
+448;Texto acadêmico de Eduardo Silva;Texto acadêmico
+449;Pintura de Raymundo Cela;Pintura
+450;Foto de Albuquerque;Fotografia
+451;Texto de Carlos Fioravanti;Texto
+452;Dissertação de Fernanda Mara Borba;Texto acadêmico
+453;Crônica de João Felipe Betendorf;Crônica
+454;Relatos de Anthony Knivet e John Davies;Relato de viajante
+455;Fotografias de satélite e locais (9a a 9d);Fotografia
+456;Letra de música (Ivan Lins);Letra de música
+457;Poema de Renata Pallottini;Literatura
+458;Monumento às Bandeiras;Monumento
+459;Borba Gato (Estátua);Monumento
+460;Estátua do Borba Gato e Monumento às Bandeiras são 'pichados';Notícia
+461;Ao invés de pichar, que tal remover as homenagens?;Artigo de opinião
+462;Os monumentos às bandeiras - Uma nova perspectiva;Texto
+463;A corrida de toras dos Timbira;Texto/Cultura
+464;Entrevista de Carmem Portinho;Entrevista
+465;Minha Terra e Minha Gente;Literatura/Didático
+466;Nossa Patria;Literatura/Didático
+467;A prática musical religiosa no Brasil e Portugal (séc. XVIII);Texto acadêmico
+468;Missa em Fá Maior - Kyrie;Partitura/Áudio
+469;O Vergalho;Documento/Obra
+470;Planisfério de Cantino (1502);Mapa
+471;Obreias e cartas;Documento
+472;Entrevista com Edgar Salvadori De Decca;Entrevista
+473;Haiti (Caetano Veloso e Gilberto Gil);Letra de música
+474;Bilhete deixado juntamente a um bebê (Roda dos Expostos, 1920);Documento
+475;Representação cenográfica (Roda dos Expostos);Fotografia
+476;A Árvore da Vida e o Infinito Azul (Gilvan Samico);Xilogravura
+477;“Malungu, ngoma vem!” (Robert W. Slenes);Texto acadêmico
+478;Decreto-Lei nº 869/1969 (Educação Moral e Cívica);Documento legal
+479;Guia de Civismo (1971);Documento
+480;Princípios de Educação Moral e Cívica (capa);Manual didático
+481;História indígena e o eterno retorno do encontro (Ailton Krenak);Depoimento
+482;A Coligay saúda o seu mais novo ídolo (Revista Placar);Fotografia
+483;Coligay: apoio incondicional ao Grêmio;Fotografia
+484;O paraíso termina quando o trabalho começa (Gazeta Socialista);Entrevista
+485;Conheça os brasileiros que salvaram perseguidos pelo nazismo;Jornal eletrônico
+486;Extração e preparação de ovos de tartaruga no Rio Amazonas;Relato/Ilustração
+487;Painéis “Guerra” e “Paz” (Cândido Portinari);Pintura
+488;Capa do LP Phono 73;Capa de disco
+489;Guerra dos Memes (Twitter);Meme
+490;1º Pavilhão / Vinho sendo fermentado / Fábrica Tito Silva (IPHAN);Fotografia
+491;Projeto Henfil – Rascunho;Crônica
+492;Rio Roosevelt (1914);Fotografia
+493;Honradas e devotas;Texto acadêmico
+494;Tem gente com fome;Literatura / Poema
+495;Bembé do Mercado (Texto, Depoimento e Foto);Conjunto Documental
+496;Capitalismo e colapso ambiental;Texto acadêmico
+497;Decreto nº 847, de 11 de outubro de 1890;Documento legal
+498;Os systemas penitenciarios do Brasil;Trecho de livro
+499;Preto e Amarello;Gravura
+500;Lei nº 13.415, de fevereiro de 2017 (LDB);Documento legal
+501;Todos juntos;Música
+502;A galinha;Música
+503;Duas faces de um mito;Revista
+504;Lei de 16 de dezembro de 1830;Documento Legal
+505;Elixir Doria;Propaganda
+506;O Rufar dos Tambores I e II;Fotografias
+507;Lei de 15 de outubro de 1827;Documento legal
+508;Castigos Lancasterianos, 1829;Manual
+509;Relatório Figueiredo;Relatório
+510;Apoie a Nova Previdência e garanta a aposentadoria para todos;Propaganda
+511;A Carne;Música
+512;Projeto revela parte da cidade submersa no Lago Paranoá;Jornal eletrônico
+513;Uma cidade encantada;Depoimento
+514;Vila Amaury, c.1959;Fotografia
+515;Carta fazendo a descripção das innumeras coisas naturais;Carta
+516;Do monstro marinho que se matou na Cap. de São Vicente (1564);Desenho
+517;Newe Zeytung vom einem seltzamen Meerwunder...;Desenho
+518;Monstrum hermaphroditicum pedibus aquilinis;Desenho
+519;Prodomo Apologetico;Desenho
+520;Marrom Claro;Arte urbana
+521;Sem título, Casa do Cactus;Pintura
+522;Sem título, 31ª Bienal de São Paulo;Pintura
+523;O Sexo Feminino (07/09/1873);Jornal
+524;O Sexo Feminino em campanha pela emancipação da mulher;Texto acadêmico
+525;Lei de 11 de agosto de 1827;Documento legal
+526;Projeto de regulamento para o Curso Jurídico;Estatuto
+527;Advogado: doutor por excelência;Artigo eletrônico
+528;Fragmentos de história indígena na Amazônia colonial;Texto acadêmico
+529;Minha vida de menina;Literatura
+530;A cultura dos geoglifos;Texto acadêmico
+531;Desenho geométrico em Plácido de Castro / Diversidade de formas;Fotografia
+532;O mapa “Descobrimento do rio Amazonas...”, 1639;Mapa
+533;Barbeiros ambulantes (Jean Baptiste Debret, 1826);Aquarela
+534;Filas em pontos de ônibus no vale do Anhangabaú (Alice Brill);Fotografia
+535;O Rábula da Liberdade;Texto acadêmico
+536;Turma de formandos da Faculdade de Medicina da Bahia, 1926;Fotografia
+537;Lampião da Esquina (12/05/1979);Jornal
+538;Como fabricar monstros;Jornal
+539;Armazém de Pancadas;Caricatura
+540;Dentes intencionalmente modificados;Conjunto (Texto/Foto)
+541;Clarice – uma vida que se conta;Biografia
+542;Se não fosse o samba... / Eu não sou santo;Capa de disco
+543;Do Valongo à Favela;Depoimento
+544;Notícias Populares (11/05/1975 e 18/05/1975);Jornal
+545;Placa Cemitério dos Imigrantes / Homenagem Afro-Brasileiros;Fotografia/Placa
+546;Notícias do Dia, 17/11/2011;Jornal
+547;Ficha e Pareceres da Censura (33a, 33b, 33c);Ficha/Parecer
+548;Gordofobia: por que esse preconceito é mais grave...;Revista eletrônica
+549;Direito Civil;Jornal
+550;Estrada de floresta;Pintura
+551;A Lei da Sopa Paraguaia e a Constituição Federal;Jornal eletrônico
+552;Tartaruga (Receita);Receita
+553;Dona Benta – Comer bem;Capa de livro
+554;Vomitório de Le Roy;Propaganda
+555;Fotografias I a IV – Luciano Carneiro;Fotografia
+556;O Sertanejo – 03/10/1885;Jornal
+557;Liberdade condicional / Mechanicus / A Águia;Xilogravura
+558;Folha da Manhã – 14/09/1957;Jornal
+559;Documento manuscrito de 1877 – Transcrição paleográfica;Tarefa
+560;Proposta de Reforma (2017);Proposta
+561;Elevação Mental;Letra de música
+562;Um canto no meu ateliê, 1884;Quadro
+563;A Falência;Literatura
+564;Boa Vista mantém recorde da maior paçoca do mundo;Notícia de jornal
+565;Tapirussú / Tatu;Relato de viajante
+566;Mapa histórico da fronteira entre Brasil e Venezuela;Mapa
+567;Lajedo de Soledade (Entrada, Rochas e Pinturas);Fotografia
+568;Cobogó (Definição e Imagem);Dicionário / Foto
+569;O Pharol: diário da tarde, 13/06/1887;Jornal
+570;Uma década de presença indígena na UFSCar;Texto acadêmico
+571;Questionário da 11ª ONHB;Documento
+572;Xaxado;História em Quadrinhos
+573;"""A Semana”, 16 de outubro de 1892";Literatura
+574;Jornal da República, 27 de agosto de 1979;Jornal
+575;Cortiço no Brás;Fotografia
+576;Norma e Conflito;Texto acadêmico
+577;Jornal Cabichuí (Jornal e transcrição);Jornal
+578;Quilombo: vidas, problemas e aspirações do negro;Jornal
+579;Camila, Camila;Letra de música
+580;Correio da Manhã, 1 de outubro de 1937;Jornal
+581;História pra ninar gente grande;Letra de samba enredo
+582;O mural “A conquista do espaço” (Aldo Locatelli, 1953);Mural/Pintura
+583;Marcha para Oeste – Rondônia (Ricardo Leon Chaves, 1985);Fotografia
+584;As Cavalhadas de Pirenópolis (Roger Mello);Ilustração
+585;Diário de um detento;Letra de música
+586;Carandiru I e II;Fotografia
+587;Capa e Contracapa “Calabar” (Versões I, II e III);Capa de disco
+588;S. John del Rey Mining Company;Fotografia
+589;Hannah Arendt (Trecho de filme);Transcrição
+590;Juramento;Panfleto
+591;Casa das Minas / Terreiro Casa das Minas;Foto / Doc. Legal
+592;Angola Janga (I a V);Romance gráfico
+593;Requerimento de censura: “Pastel de Carne Humana”;Relatório/Doc.
+594;Incêndio do Museu Nacional não é tragédia...;Blog
+595;A Boa Nova, 12/05/1877;Jornal
+596;A voz do caixeiro, 29/06/1890;Jornal
+597;Palestra de Daniel Munduruku;Palestra
+598;Parede de Memória (I e II);Instalação
+599;Holocausto brasileiro (Livro e Jornal eletrônico);Livro / Notícia
+600;Pátios e Retratos (Barbacena/Holocausto);Fotografia
+601;Pinhão de Amarração;Letra de música
+602;Lei nº 1.157, de 26 de junho de 1862;Documento legal
+603;Nova loja da Viúva Freitas;Propaganda
+604;Violeta Arraes: Como falar de uma flor;Revista digital
+605;Vila Itororó (Postais, Fotos, Projetos e Tombamento);Conjunto Documental
+606;Um olhar sobre as benzedeiras de Juruena;Texto acadêmico
+607;A reescrita da História em “Calabar, o Elogio da Traição”;Texto acadêmico
+608;Carta de Adandozan (Rei do Daomé) a Dom João;Carta
+609;Cultura Material Real do Daomé (Bandeira, Trono, Bolsa);Objeto/Arte
+610;Canudos – 100 anos (I, II e III);Fotografia
+611;Gonê;Letra de música
+612;Manuscrito de 1895 (Doc. 46);Manuscrito
+613;Texto Michelle Perrot;Texto
+614;Tirinha Cedraz;Tirinha
+615;Samba Mangueira;Letra de música
+616;Manual de Imagens (JPG);Manual
+617;Corrente de whatsapp: fato e ficção sobre a família real;Jornal eletrônico
+618;Brasileiro troca cartas com Thomas Jefferson;Jornal eletrônico
+619;1824: como os alemães vieram parar no Brasil;Texto acadêmico
+620;Brasília: 950.000 carros vendidos até agora;Propaganda
+621;Moqueca sem graça? Assim Tessália mata o capixaba!;Jornal eletrônico
+622;Explique o nome de sua equipe;Tarefa / Formulário
+623;Dream;Charge
+624;Os cemitérios da Guerra do Contestado (1912–1916);Texto acadêmico
+625;A mulher que virou homem;Música
+626;Adeus Recife;Literatura / Poesia
+627;Quilombos, Cabixis e Caburés;Texto acadêmico
+628;Adolfo Caminha: um polígrafo na literatura brasileira;Texto acadêmico
+629;Um dia um rio (capa, epígrafe e páginas);Literatura infantil
+630;Questionário de identificação da equipe;Tarefa
+631;As cartas das crianças da Maré (1 a 12);Conjunto de Cartas
+632;Romance II ou do Ouro Incansável;Literatura
+633;Agências e hotéis já registram maior interesse...;Jornal
+634;Além do Pantanal / Pantanal ecológico;Propaganda
+635;Decreto-Lei nº 1.006, de 30 de dezembro de 1938;Documento legal
+636;Cartas da Mãe;Literatura
+637;Para CIA, Nordeste era crucial contra ataque soviético;Jornal eletrônico
+638;Ponte do Imperador D. Pedro II (Notícia e Fotos);Conjunto Documental
+639;Golpe de Estado: o conceito e sua história;Texto acadêmico
+640;Postais, década de 1901–1910;Cartões postais
+641;O Jabuti resiste - Greenpeace (1 a 9);Literatura
+642;Pós-abolição e quotidiano;Texto acadêmico
+643;Dorme, Meu Menino, Dorme;Literatura / Música
+644;Visita ao Forte do Príncipe da Beira (1913);Fotografia
+645;Emenda Constitucional nº 1 (1969);Documento legal
+646;Diário do Maranhão, 24 de maio de 1874;Jornal
+647;Beijo ao Luar (2013);Quadro
+648;A materialidade da repressão à guerrilha do Araguaia;Texto acadêmico
+649;Any querida (Páginas 1, 2 e 3);Mensagem / Carta
+650;Nova estátua de Iemanjá é inaugurada em Natal;Jornal eletrônico
+651;”Africanos” da Torrelandia / ”Tupy-Guarany” do Roggers;Fotografia
+652;O que significava ser cidadão nos tempos coloniais;Texto acadêmico
+653;Jânio Quadros condecora Ernesto Guevara;Foto / Jornal
+654;Prédio da Fundação Iberê Camargo;Fotografia
+655;Entenda a polêmica envolvendo recolhimento de HQ;Jornal eletrônico
+656;Localização e extensão das Terras Indígenas;Mapa
+657;Pequeno Manual Antirracista;Livro
+658;Todas as Vidas;Literatura
+659;Qual lado da corda você tá?;Grafite
+660;Casamento do Matuto é Patrimônio Cultural de Sergipe;Jornal eletrônico
+661;Museu do Ipiranga 2022 / Diário da Obra;Vídeo
+662;Cartas entre Câmara Cascudo e Mário de Andrade (1925);Cartas
+663;AmarElo no Theatro Municipal (I, II, III e Trailer);Foto / Vídeo
+664;Brasil;Música
+665;Massacre de Ipatinga (1963 e 1984);Folheto
+666;Evolução do Mapa Rodoviário (1960 a Atual);Mapas
+667;Estradas de rodagem - a expansão de 1957-1964;Mapa
+668;Guerra dos Mascates (Texto on-line);Texto
+669;A fronda dos mazombos (Evaldo Cabral de Mello);Texto acadêmico
+670;50 anos do Massacre de Manguinhos;Revista
+671;Questionário da 13ª ONHB;Documento
+672;Criança amarela (1, 2 e 3);História em quadrinhos
+673;A epidemia de grippe e a defesa sanitaria do Brazil;Jornal
+674;Reclame;Charge
+675;Meninas tinham menos capacidade intelectual que meninos;Jornal eletrônico
+676;Retorno;Música
+677;Inserções em circuitos ideológicos: Projeto cédula (1970–2018);Cédulas / Arte
+678;Theatro Municipal (Propaganda);Propaganda
+679;Racismo em São Paulo;Jornal
+680;Inflação do ano chega a 1.764,86%;Jornal
+681;Autos da vila de Nossa Senhora da Assunção de Benevente;Documento legal
+682;Um negócio de alto risco: roubo, pirataria e morte no tráfico;Texto acadêmico
+683;Aclamação de Dom Pedro I – Imperador do Brasil;Pintura/Litografia
+684;Manifestação durante a reunião da SBPC em Salvador, 1981;Fotografia
+685;Contestado – Terra Contestada;Painel
+686;Paulo Freire de volta ao Brasil;Jornal
+687;Mobral, 1971;Óleo sobre tela
+688;Dedicatória (pág. 1, 2 e 3);Livro
+689;Processo de Dona Catarina Quaresma (Processo e Autos);Documento legal
+690;Numa procissão;Jornal
+691;Paridade em memória à família Maurício / Nélson Lopes Sol;Fotomontagem
+692;Entrevista: Gê Viana;Entrevista
+693;Jesus e Tiradentes;Música
+694;O Jornal das Senhoras (01/02/1852);Jornal
+695;Mapa – Pantanal Matogrossense;Mapa
+696;Comitiva Esperança;Música
+697;O Fardo do Homem Branco;Poema
+698;A Jangada: 800 léguas pelo Amazonas;Literatura
+699;Conto dos Orixás;História em quadrinhos
+700;Leite Condensado de Borden / Leite Moça / Farinha Láctea;Propagandas
+701;Mulheres “escolhedeiras” na mina Hercílio Luz (1938-1939);Fotografia
+702;"Nordestino, sim; Nordestinado, não!";Poesia
+703;Carta ao Padre Geral de São Vicente (31/05/1560);Carta
+704;Desabou o Elevado Paulo de Frontin / Responsabilidades;Jornal
+705;Retrato do Intrépido Marinheiro Simão (1853-57);Óleo sobre tela
+706;Correio Mercantil (06 e 15 de novembro de 1853);Jornal
+707;História nacional em São Paulo: o Museu Paulista em 1922;Texto acadêmico
+708;Por que as meninas não querem fazer ciências exatas?;Jornal acadêmico
+709;Trainee 2021 / Liderança negra;Propagandas
+710;Conhecendo e Debatendo a História do Maranhão;Livro paradidático
+711;Eu só peço a Deus;Música
+712;Carta de 1950 (Documento da Tarefa);Documento
+713;Ordenações Filipinas, 1603;Documento legal
+714;Código Criminal de 1830;Documento legal
+715;Código Penal de 1890;Documento legal
+716;ReAntropofagia (2019);Técnica mista / Arte
+717;Capturas de tela: Perguntas Google / Tweets (Bring me back/Pirâmides);Captura de tela
+718;Xondaro Ka’aguy Reguá;Música e videoclipe
+719;Cultura e alimentação na Paraíba;Texto acadêmico
+720;Reflexões sobre o Charlatanismo / Guia médica das mães;Manual/Livro
+721;Mapa Moral e Político do Mundo Habitado;Mapa
+722;Memorial Coluna Prestes (Edifícios, Escultura e Projeto);Conjunto Documental
+723;Sessão Aniversária da Sociedade Auxiliadora da Indústria Nacional;Discurso
+724;Conjunto de notícias: Jair Bolsonaro e falas misóginas;Jornal eletrônico
+725;Questionário da equipe participante da 14ª ONHB;Formulário
+726;Pichação na Bienal de Berlim: arte ou crime?;Jornal eletrônico
+727;Anchieta;Literatura
+728;Reminiscências de viagens e permanência no Brasil;Relato de viajante
+729;Revista Placar 738 (1984) / Futebol feminino sem preconceitos;Revista/Artigo
+730;Em que se trata de uma alimária que se chama jaguaretê;Tratado
+731;Associação Brazil Livre (Páginas 1 a 4);Folhetos
+732;Tombo da Paróquia do Rosário e São Benedito;Registro paroquial
+733;Alô, alô extremo Norte!;Texto acadêmico
+734;Coroação de D. Pedro I;Óleo sobre tela
+735;História da Moda (Instagram);Rede social
+736;Triste, louca ou má;Música
+737;Lagoa das Tretas, 1835 (Rugendas);Litografia
+738;Alexandrina e sua cidade, 1944 (Carybé);Pintura a óleo
+739;Mulheres de Tejucupapo, 2015 (Tereza Costa Rêgo);Painel
+740;Mulher do fim do mundo (2017);Canção/Videoclipe
+741;Anielle Franco - Roda Viva;Instagram
+742;Samba no Terreiro (1957);Óleo sobre tela
+743;Lives: Precarização do trabalho / Escravismo envergonhado;Live/Vídeo
+744;Capítulo XVIII - O que podemos chamar leis e policiamento...;Relato
+745;A Festa do Trabalho;Revista
+746;Guerra à guerra!;Jornal
+747;O centenário brasileiro;Jornal
+748;Pintura Rupestre: Parque Nacional Serra da Capivara;Pintura Rupestre
+749;Nos Tempos do Imperador;Telenovela
+750;Notícias sobre Vampiros (SP e Serra da Mantiqueira);Jornal eletrônico
+751;Urupês;Literatura
+752;Vejam só!;Tirinha
+753;A sociedade aberta e seus inimigos;Texto acadêmico
+754;Os Estatutos do Homem;Literatura
+755;Brasil de Braços Abertos;Curso/Material
+756;UFSC homenageia Antonieta de Barros;Jornal eletrônico
+757;Centro de Ceilândia (déc. 1970);Fotografia
+758;A construção injusta do espaço urbano;Livro
+759;‘Racismo reverso’ de Risério busca deslegitimar luta racial;Jornal eletrônico
+760;Portugal dos Pequenitos (Fotos e Totens);Conjunto Visual
+761;A potência económica do Brasil;Livro
+762;Como o ‘privilégio corporal’ cria barreiras para pessoas gordas;Jornal eletrônico
+763;História e morte do Bode Ioiô (Entrevista e Manchete);Jornal/Entrevista
+764;Xica da Silva (Foto);Fotografia
+765;Chica da Silva e o contratador de diamantes;Texto acadêmico
+766;Reconvexo;Canção
+767;#DeixaElaTrabalhar;Vídeo
+768;Certidão da Escola Normal do Distrito Federal;Documento escolar
+769;Marcados I, II, III / Notícia: Marcados - Bienal;Foto / Notícia
+770;Unesco inclui duas áreas do Brasil na lista de geoparques;Jornal eletrônico
+771;Bebida dos deuses;Texto acadêmico
+772;Boemia e modernidade em Cuiabá;Texto acadêmico
+773;Zé Bolo-Flor, c. 1950;Fotografia
+774;Fique Viva;Música
+775;As Ligas Camponesas na Paraíba;Texto acadêmico
+776;Depoimento de Elizabeth Teixeira;Depoimento
+777;Civilization VI (Trailer);Vídeo / Game
+778;Sobre História e Videogames;Texto acadêmico
+779;Capivarol – O Rei dos Tonicos (I, II e III);Propaganda
+780;Crônica Social / Sociais / Debutante;Conjunto (Imprensa)
+781;Axé, axé para todo mundo, axé;Vinheta
+782;Questionário da 15ª ONHB;Documento
+783;Obra de Di Cavalcanti danificada no Planalto (Notícia);Manchete
+784;Vozes-Mulheres;Poesia
+785;A cidade;Música
+786;Linda Casa de Época Moderna (Aluguel);Anúncio
+787;Marcas da Memória Dopinho;Placa
+788;Journal of a Residence in India / Chile;Diário
+789;Respondendo perguntas do Instagram #1;Vídeo
+790;Desclassificados do ouro;Texto acadêmico
+791;Bandeirantes a Caminho das Minas, 1920;Óleo sobre tela
+792;Esculturas Urbanas (Caranguejo, Serpente, Bauruzinho, etc);Conjunto de Notícias
+793;A queda do céu;Livro
+794;Nepu Arquepu [Rede Macaco], 2019;Acrílica sobre madeira
+795;Café para estação, 1903;Óleo sobre tela
+796;Hitome de wakaru manga sekai manga genj? chizu, 1932;Mapa / Manga
+797;Contribuições indígenas para a ciência no Brasil;Texto acadêmico
+798;Até Quando Esperar;Música
+799;A terra da gente (Capa, pág 6-7, encartes);Livro didático
+800;Afirma Pereira: um testemunho;Literatura
+801;O integralismo literário de Plínio Salgado e o salazarismo;Texto acadêmico
+802;Acendedores de lampião;Fotografia
+803;Que horas ela volta?;Trailer
+804;Impressões Rebeldes (Reritiba, Inconfidência, Macaé);Site / Digital
+805;Bilhete de Jânio Quadros ao CND;Bilhete
+806;Não há cartografia no mundo dos pajés;Desenho sobre mapa
+807;Doc 041 a 054 (Série histórica ONHB);Documentos codificados
+808;A última floresta;Trailer
+809;Tecnologia é liberdade;Propaganda
+810;O sentido da colonização;Texto acadêmico
+811;Entrevista com Fernando Novais;Entrevista
+812;Peste Gay / Brasil contra a AIDS;Jornal / Propaganda
+813;Boletim da Libertadora Norte-Rio Grandense;Jornal
+814;Ausenc’as (Luiz Eurico Tejera Lisbôa);Foto / Biografia
+815;Museu Republicano (Gazeta de Notícias e O Malho);Jornal
+816;Seguro você vive melhor / Especialistas veem perigo...;Propaganda / Jornal
+817;O Último Tamoio;Óleo sobre tela
+818;É (Gonzaguinha);Música
+819;Documento Manuscrito Cartorial (Século XIX);Manuscrito
+820;Manto Tupinambá (Retorno da Dinamarca e Exposição);Artefato / Notícia
+821;Pela internet / Pela internet 2;Música
+822;Relatório do Pres. da Província de PE (1857);Relatório
+823;“CIDADE VIGIADA”, “CIDADE CIVILIZADA”;Texto acadêmico
+824;Não é justo que ela tenha um Volkswagen só para ela?;Propaganda
+825;Tipiti (Amazonas e Arumã);Artefato
+826;Sujismundo (Campanhas de 1972/1977 e Jornal Digital);Conjunto (Campanha)
+827;A cidade imaginada;Texto acadêmico
+828;Fora Collor / Passeatas dos Caras-Pintadas;Fotografia
+829;Demolição do Morro do Castelo (1922);Fotografia
+830;Alisadores de Cabelos Crespos / Cabelisador;Propaganda
+831;Questionário de Equipe (Tarefa);Documento
+832;Allejo e o futebol nos videogames (Videoclipe, Meme, Blog);Conjunto Digital
+833;Festa da Colheita do Capim Dourado / Vestidos;Jornal / Vestuário
+834;Barracos históricos: Tratado de Tordesilhas;Vídeo (Redes Sociais)
+835;Mestre Vitalino – A vida inteligente no barro;Cordel
+836;Grandes empresas y dictaduras / Listas Negras;Texto acadêmico / Jornal
+837;Noticias Scientificas / O Daguerreotypo;Jornal
+838;Registros rupestres de araucárias no Paraná;Pintura rupestre
+839;Quatro homens em uma jangada;Revista
+840;A market stall (Uma tenda de mercado);Gravura
+841;Metrópole;Música
+842;Vista da Vila de N. Sra. do Desterro (Ilha de Sta. Catarina);Gravura em metal
+843;Exposição Estadual do Rio Grande do Sul (1901);Litografia
+844;Ensaio da peça “Sortilégio” (Teatro Experimental do Negro);Fotografia
+845;Batalha do Jenipapo: Independência no Piauí;Videoaula / Jornal
+846;Em nome do objeto / Do teatro da memória...;Texto acadêmico
+847;Os objetos sobrevivem ao morto;Poesia
+848;Guerra dos super-heróis / Cavaleiros do Zodíaco;Revista / Propaganda
+849;O que são arquivos pessoais;Texto acadêmico
+850;Na câmara de torturas o TV Philips 550 resistiu a tudo;Propaganda
+851;Xenofobia em Portugal (Vídeo, Jornal e Gráficos CICDR);Conjunto Documental
+852;Modos e modas do Rio Grande do Sul;Revista
+853;Peabiru (Canção e Jornal sobre o caminho indígena);Música / Jornal
+854;Os indígenas adoram os alimentos líquidos;Texto acadêmico
+855;A Redenção de Cam (1895 - Óleo / 2022 - Aquarela);Óleo sobre tela / Aquarela
+856;Por onde queira que transite;Texto acadêmico
+857;Sirene da Folha (Centro de SP);Jornal
+858;Crônica do viver baiano seiscentista (Gregório de Matos);Crônica / Literatura
+859;Sintonizah / Regueiros Guerreiros;Trailer / Música
+860;Troque com seus amigos mensagens secretas;Propaganda
+861;VOCÊ SABIA? TURMA DA MÔNICA (I a V);História em quadrinhos
+862;Que País é Este (Uso político no TikTok);Jornal
+863;Entrada do Colégio Des Oiseaux;Fotografia
+864;Viagem de estudos às colônias alemãs do Espírito Santo;Texto acadêmico
+865;Depoimentos – Júlio Santos;Documentário
+866;Canhão Cristiano e Troféus da Guerra do Paraguai;Jornal / Abaixo-assinado
+867;Carta manuscrita do início do século XX;Manuscrito
+868;Halloween…;Charge
+869;Chronica da Companhia de Jesu do estado do Brasil;Crônica
+870;Amado / Benedicto / Joaquim Teixeira / Casa de Correção;Livro de Registro / Relatório
+871;Com o tímido apoio da Anistia;Reportagem
+872;Brasil Pandeiro;Música
+873;A tragédia dos calvos / Um que precisa de Jaboo;Propaganda
+874;O Avestruz / Bilhetes do Jardim Zoológico e Jogo do Bicho;Texto acadêmico / Bilhete
+875;Dra. Maria Coelho;Reportagem
+876;Casagrande explica o que foi a Democracia Corinthiana;Entrevista
+877;União Negra Catarinense;Texto de jornal
+878;Questionário de perfil socioeconômico;Documento
+879;Me chame pelo meu nome;Peça publicitária
+880;Angústia (Graciliano Ramos);Romance
+881;Carta de Helena Silva Stein para sua irmã Flávia;Carta
+882;Roosevelt já tinha desbravado Amazônia antes de Biden;Matéria jornalística
+883;A Volta pra Casa;Videoclipe
+884;Efemérides Brasileiras / Uma História, 1819–1820;Trecho de Livro / Gravura
+885;Folk-lore do Brasil Central;Artigo de opinião
+886;Recibo de pagamento por serviços prestados;Recibo
+887;Descrição fantasiosa de animais / O mundo novo;Gravura / Livro
+888;Humanae I e II (Angélica Dass);Fotografia
+889;Embarque da família real para o Brasil;Óleo sobre tela
+890;O voto às mulheres: quadros de futuro;Gravura – Charge
+891;Festa da Uva;Fotografia
+892;Festa Confederada / Manifesto / Festa dos Americanos;Conjunto de Reportagens
+893;Tratado proposto a Manuel da Silva Ferreira pelos escravos;Tratado
+894;Guerra do Paraguai: Residentas, destinadas e recordações;Carta / Texto / Memória
+895;“Trilha rupestre” em Mato Grosso do Sul;Jornal digital
+896;Chat avec un perroquet – Gato com um papagaio;Óleo sobre madeira
+897;Actos do Poder Legislativo / Decreto nº 3.890 (1901);Documento legal
+898;Al Capone (Raul Seixas);Música
+899;Ginástica e soldados (Corte de cabelo e barba);Fotografia
+900;A hora dos ruminantes;Romance
+901;A memória, a história e o fogo;Jornal eletrônico
+902;Cangaço Overdrive (Sinopse e Páginas 12-13);HQ / Sinopse
+903;Capitães do mato;Texto acadêmico
+904;Orelhão (Projeto de Chu Ming Silveira e Fotografia);Projeto / Foto
+905;Amenidades da Rua;Crônica
+906;Maria da Conceição Tavares;Texto acadêmico
+907;Sessão de 3 de setembro de 1930 / Nome de João Pessoa;Jornal / Manchete
+908;Linhas de desejo e Relatório do Plano Piloto (Brasília);Fotografia / Relatório
+909;O boi voador / O valeroso Lucideno;Vídeo / Crônica
+910;Espertirina Martins (Grafite e Texto Acadêmico);Grafite / Texto
+911;Etnografia cultural da flora mágica brasileira;Conjunto (Arte/Curadoria)
+912;Mashups: George Michael/K-ximbinho e X-Men/Hermeto;Vídeo
+913;Matrícula e Cédula de Identidade de Olegario;Documento Pessoal
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
